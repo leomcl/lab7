@@ -8,7 +8,7 @@ module load mpi/intel-mpi/2019u5/bin
 numMPI=${SLURM_NTASKS:-1}
 
 # Compile the MPI programme
-mpiicc quadMPI.c -o quadMPI.exe
+mpiicc -std=c99 quadMPI.c -o quadMPI.exe
 
 # Launch exactly that many ranks
 mpirun -np $numMPI ./quadMPI.exe
