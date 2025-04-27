@@ -8,7 +8,7 @@ module load mpi/intel-mpi/2019u5/bin
 numMPI=${SLURM NTASKS:-1}
 
 # Compile the MPI programme
-mpiicc program.c
+mpiicc helloMPI.c
 
 # Launch exactly that many ranks
-mpirun -np $numMPI ./program.exe
+mpirun -np $numMPI ./helloMPI.exe
