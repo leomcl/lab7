@@ -1,3 +1,4 @@
+#!/bin/bash
 
 # Lo d Intel compilers and MPI
 module load compilers/intel/2019u5
