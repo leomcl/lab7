@@ -1,6 +1,6 @@
 #!/bin/bash
 
-# Lo d Intel compilers and MPI
+# Load Intel compilers and MPI
 module load compilers/intel/2019u5
 module load mpi/intel-mpi/2019u5/bin
 
