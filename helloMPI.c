@@ -1,5 +1,6 @@
 #include <stdio.h>
 #include <mpi.h>
+
 int main(void) {
 	int myRank;
 	MPI_Init(NULL, NULL);
